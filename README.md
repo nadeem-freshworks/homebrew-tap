@@ -39,6 +39,17 @@ source "$(brew --repository nadeem-freshworks/homebrew-tap)/path.bash.inc"
 ```
 
 This command sets up the necessary environment variables and configurations required for using the FDK.
+
+## Verification
+
+To verify that the FDK has been successfully installed, you can check its version by running the following command:
+
+```bash
+fdk -v
+```
+
+This command should output the version of the FDK installed on your system.
+
 ## Uninstalling FDK
 
 To uninstall the Freshworks Developer Kit (FDK) installed via Homebrew, run the following command:
